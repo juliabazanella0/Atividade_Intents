@@ -14,5 +14,7 @@ class ShowActivity : AppCompatActivity() {
             val sharedMessage = intent.getStringExtra(Intent.EXTRA_TEXT)
             txtMessage.text = sharedMessage
         }
+
+        //show image
     }
 }
